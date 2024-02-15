@@ -1,0 +1,123 @@
+@import url(reset.css);
+
+body {
+	font-family: sans-serif;
+}
+
+.features {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 140px 0 140px 0;
+}
+.features__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.features__block {
+	padding: 40px 34px;
+	max-width: 310px;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+.features__block:hover {
+	transform: scale(1.1);
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.features__icon {
+	display: flex;
+	width: 70px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+.features__icon-grow {
+	background: rgba(242, 88, 34, 0.25);
+}
+.features__icon-leads {
+	background: rgba(20, 146, 17, 0.28);
+}
+.features__icon-sales {
+	background: rgba(255, 205, 29, 0.24);
+}
+.features__title {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29px;
+	margin: 25px 0 18px 0;
+}
+.features__text {
+	color: rgb(102, 102, 102);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%;
+}
+.features__link {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 150%;
+	margin: 25px 0 40px 0;
+}
+.services {
+	width: 1174px;
+	margin: 0 auto;
+}
+.setvices__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 120%;
+	text-align: center;
+}
+.services__text {
+	color: rgb(136, 136, 136);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+	text-align: center;
+	max-width: 740px;
+	margin: 0 auto;
+	padding: 24px 0 48px 0;
+}
+.servisec__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.services__item {
+	max-width: 378px;
+	text-align: center;
+	gap: 20px;
+}
+.services__img {
+	width: 100%;
+}
+.services__service-name {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29px;
+	padding: 32px 0 16px 0;
+}
+.services__service-description {
+	color: rgb(102, 102, 102);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+	max-width: 310px;
+	margin: 0 auto;
+}
+.services__btn {
+	display: inline-block;
+	text-decoration: none;
+	padding: 16px 32px;
+	border-radius: 56px;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	background: rgb(242, 88, 34);
+	margin: 24px 0 34px 0;
+}
+.services__btn-inner {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+}
